@@ -1,0 +1,568 @@
+.user_masterpass_one .registration{padding:50px 50px 40px 50px;}
+.user_masterpass_one h2{line-height:1.5;}
+.item_number{position:absolute;font-size:110px;opacity:0.2;font-weight:bold;margin:0;top:-30px;}
+.user_masterpass_one .btn-bills{display:block;width:170px;margin:0 auto;}
+.user_masterpass_one .btn-bills-two{width:201px;margin:0 auto;text-align:center;}
+#bill-page .back_pay{text-decoration:underline;color:#504848;line-height:40px;}
+.user_masterpass_one .registration-item{position:relative;}
+@media (min-width:768px){.user_masterpass_one .registration-item{width:33%;}
+    .user_masterpass_two .registration-item{width:25%;}
+    .user_masterpass_one .registration-item-wrap-row{margin:30px 0;}
+    .user_masterpass_one .registration-item-descr{width:100%;}
+    .item-one{position:relative;right:18px;}
+}
+@media (max-width:992px){.user_masterpass_one .registration{padding:15px;}
+    .item_number{left:20px;}
+    .user_masterpass_one .btn-bills{margin:0 auto;}
+    .user_masterpass_one .registration-item-wrap{margin:0;}
+}
+@media (max-width:768px){.user_masterpass_one .registration-item{margin:25px 0;text-align:center;}
+    .item_number{left:41%;}
+}
+.payments-menu-list{border:1px solid #e6e6e6;overflow:hidden;margin-bottom:18px}
+.payments-menu-list li{border-top:1px solid #f2f2f2;position:relative}
+.payments-menu-list a{display:block;color:#999;padding:9px 0 12px 55px}
+.payments-menu-list a:hover .title{color:#000}
+.payments-menu-list a:hover .desc{color:#a7a7a7}
+.payments-menu-list a:hover{background:#fafafa;text-decoration:none}
+.payments-menu-list .title{display:block;font-size:17px;color:#010101;}
+.payments-menu-list .desc{font-size:13px;color:#7B9AA9;white-space:nowrap}
+.payments-menu-list .active{background:#E94F35}
+.payments-menu-list .active .title{color:#ffffff}
+.payments-menu-list .active .desc{color:#ffffff}
+/*.payments-menu-list li.active:before, .payments-menu-list li:hover:before{background:#ff7671;display:block;content:' ';position:absolute;width:7px;height:100%;left:0;top:0}
+.payments-menu-list li:hover:before{background:#b3b3b3}*/
+.payments-menu-list li.active:before{background:#7b9aa9}
+.payments-menu-list i{background:url(/v4/frontend/web/source/default/img/payments-list-icons2-gray.png) 0 0 no-repeat;position:absolute;display:block;height:40px;width:35px;left:7px;top:10px}
+.payments-menu-list .utilities i{background-position:0 -40px}
+.payments-menu-list .internet i{background-position:0 -77px}
+.payments-menu-list .tv i{background-position:0 -114px}
+.payments-menu-list .security i{background-position:0 -842px}
+.payments-menu-list .telephony i{background-position:0 -150px}
+.payments-menu-list .kupit_zhd_biletyi_onlayn i{background-position:0 -188px}
+.payments-menu-list .train-tickets i{background-position:0 -188px}
+.payments-menu-list .bus-tickets i{background-position:0 -231px}
+.payments-menu-list .transport i{background-position:0 -230px}
+.payments-menu-list .cards i{background-position:0 -312px}
+.payments-menu-list .crossbord  i{background:url(/v4/frontend/web/source/default/img/crossbord-bills.png) 0 0 no-repeat;position:absolute;display:block;height:40px;width:40px;left:7px;top:10px;background-position:0;}
+.payments-menu-list .turism i{background-position:0 -354px}
+.payments-menu-list .education i{background-position:0 -390px}
+.payments-menu-list .p2r i{background-position:0 -798px}
+.payments-menu-list .games i{background-position:0 -423px}
+.payments-menu-list .social i{background-position:0 -459px}
+.payments-menu-list .charity i{background-position:0 -498px}
+.payments-menu-list .business i{background-position:0 -535px}
+.payments-menu-list .detskiye-sady i{background-position:0 -572px}
+.payments-menu-list .new-year i{background-position:0 -615px}
+.payments-menu-list .bilety-na-razvlechenia i{background-position:0 -658px}
+.payments-menu-list .insurance i{background-position:0 -701px}
+.payments-menu-list .shtrafu i{background-position:0 -744px}
+.payments-menu-list .payment-of-bill i{background-position:0 -798px}
+.payments-menu-list .payment-of-bill.active i{background-position:-45px -798px}
+/*.payments-menu-list .charge-mobile.active i{background-position:-45px 0}*/
+.payments-menu-list .security.active i{background-position:-45px -842px}
+.payments-menu-list .utilities.active i{background-position:-45px -40px}
+.payments-menu-list .internet.active i{background-position:-45px -77px}
+.payments-menu-list .tv.active i{background-position:-45px -114px}
+.payments-menu-list .telephony.active i{background-position:-45px -150px}
+.payments-menu-list .train-tickets.active i{background-position:-45px -188px}
+.payments-menu-list .bus-tickets.active i{background-position:-45px -231px}
+.payments-menu-list .transport.active i{background-position:-45px -230px}
+.payments-menu-list .cards.active i{background-position:-45px -312px}
+.payments-menu-list .turism.active i{background-position:-45px -354px}
+.payments-menu-list .kupit_zhd_biletyi_onlayn.active i{background-position:-45px -188px}
+.payments-menu-list .p2r.active i{background-position:-45px -798px}
+.payments-menu-list .education.active i{background-position:-45px -390px}
+.payments-menu-list .games.active i{background-position:-45px -423px}
+.payments-menu-list .social.active i{background-position:-45px -459px}
+.payments-menu-list .charity.active i{background-position:-45px -498px}
+.payments-menu-list .business.active i{background-position:-45px -535px}
+.payments-menu-list .detskiye-sady.active i{background-position:-45px -572px}
+.payments-menu-list .new-year.active i{background-position:-45px -615px}
+.payments-menu-list .bilety-na-razvlechenia.active i{background-position:-45px -658px}
+.payments-menu-list .insurance.active i{background-position:-45px -701px}
+.payments-menu-list .shtrafu.active i{background-position:0 -744px}
+.payments-menu-list div.fr{width:15px;height:61px;background:#FFF;position:absolute;right:0;z-index:99;background:-moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);background:-webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(75%, rgba(255, 255, 255, 1)));background:-webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);background:-o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);background:-ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);background:linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1)}
+.payments-menu-list .crossbord {background:url(/v4/frontend/web/source/default/img/crossbord-icon.png) 0 0 no-repeat;background-position:0 0;}
+#more-menu{display:none;margin-top:10px;border:1px solid #e6e6e6;border-radius:2px;width:100%;text-align:center;padding:20px 0}
+.bill-main-column h1{font-size:2em;margin-top:5px;color:#6c8592}
+.intro{font-weight:300;margin-bottom:20px;color:gray}
+.nav-more{border-top:1px solid #e6e6e6}
+.bill-list-companies{list-style-type:none;margin:0;padding:0}
+.bill-main-wrap{margin-left:-15px}
+.bill-list-companies li{display:block;float:left;width:140px;height:140px;border:1px solid #e6e6e6;position:relative;padding:80px 0 0;margin-bottom:25px}
+.bill-name{color:#202020}
+.bill-list-companies li a{position:absolute;top:-1px;left:-1px;display:block;width:140px;height:140px;border:1px solid #e6e6e6;text-align:center;line-height:140px;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}
+.bill-list-companies .bill-name{display:inline-block;line-height:13px;vertical-align:bottom;margin-bottom:5px;font-size:12px;height:26px;overflow:hidden}
+.bill-list-companies li:hover a{text-decoration:none;background-color:rgba(48, 54, 51, .8) !important;padding:0}
+.bill-list-companies li a:hover .bill-name{border:1px solid #fff;border-radius:5px;color:#fff;vertical-align:middle;padding:3px 5px 2px;overflow:visible;height:auto}
+#p2r-link.p2r-link{padding:0}
+#p2r-link.p2r-link:hover a{text-decoration:none;background:none !important;padding:0}
+#p2r-link.p2r-link a{line-height:15px}
+#p2r-link.p2r-link a:hover .bill-name{border:none;color:#202020;margin-bottom:10px}
+#p2r-link.p2r-link .bill-name{vertical-align:top;margin-top:3px;padding:0 8px}
+#p2r-link.p2r-link .button-light{margin-top:61px;font-size:14px;color:#fff;background-color:#F15B40;display:inline-block;padding:5px 15px;border-radius:4px}
+.left-column-visible-xs{padding:0}
+.contacts-item{display:table}
+.contacts-icon{display:table-cell;width:25px;vertical-align:middle}
+.contacts-descr{display:table-cell}
+.clear{clear:both}
+.page_text_bill{color:gray}
+.page_text_bill ul{margin:10px 30px}
+.page_text_bill p{padding-bottom:7px}
+.page_text_bill ul li{list-style-type:initial}
+.search-box .results{max-height:415px;overflow-y:auto}
+.page_text p{margin:10px 0}
+#p2r-link.p2r-link{background:url(/v4/frontend/web/source/default/img/one_block.png) 40px 34px no-repeat, #fff}
+.left-column{border:1px solid #e6e6e6;border-top-left-radius:5px;border-top-right-radius:5px}
+.vcenter{display:inline-block;float:none !important;vertical-align:middle}
+.bill-blog .vcenter{display:inline-block;float:left !important;vertical-align:middle}
+.company-info{background:#fafafa;border-bottom:1px solid #e6e6e6;overflow:auto}
+.company-info .logo{width:100%;height:auto;min-height:100px}
+.company-info .logo-wrap{float:left;margin:8px 0;width:40%;height:auto;min-height:100px;border-right:1px solid #e6e6e6;text-align:center;font-size:16px;color:#666}
+.company-info .contacts{padding:15px 13px;float:left;width:60%;color:#666}
+#bill-page a, #bill-page a:hover{text-decoration:none;color:#d9534f}
+.tel, .external, .email, .city, .street{position:relative;padding-left:27px;margin-bottom:12px;font:normal normal normal 14px/1 FontAwesome;font-size:15px;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.tel:before{content:"\f095";display:block;position:absolute;font-size:23px;left:0;top:-4px}
+.external:before{content:"\f08e";display:block;position:absolute;font-size:18px;left:0;top:0}
+.email:before{content:"\f003";display:block;position:absolute;font-size:18px;left:0;top:0}
+.city:before{content:"\f041";display:block;position:absolute;font-size:18px;left:0;top:0}
+.street:before{content:"\f21d";display:block;position:absolute;font-size:18px;left:0;top:0}
+#bill-page h1{font-size:28px}
+.btn-bills{font-size:16px;margin-right:-15px}
+.btn-bills, .btn-bills:hover, .btn-bills:focus, .btn-bills:active, .btn-bills:active:hover{background-color:#33bb4a;border:0;line-height:40px !important;padding:0 20px;color:#fff !important;border-radius:0 !important}
+#bill-page .form-control{border-radius:0 !important}
+#bill-page .own_banner{margin:20px 10px;}
+#bill-page .banner_dua{text-align:center;padding:25px 0 0}
+#bill-page .banner_dua img{width:100%}
+#bill-page .d-container{margin:25px 0}
+#bill-page .d-img, #bill-page .d-text{display:inline-block;width:40%;vertical-align:middle;margin-right:35px}
+#bill-page .d-img{text-align:right}
+#bill-page .d-img > img{width:100px}
+#bill-page .d-text{width:45%;text-align:center;margin-right:0}
+#bill-page .d-text > p{border-left:1px solid #ccc;font-size:16px;line-height:2.5}
+.registration{border:1px solid #e6e6e6;padding:15px;margin:30px -15px 30px 0;color:#565656}
+.registration h2{margin:0;color:#000}
+.registration-item-wrap{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:20px 0}
+.registration-item{width:49%;float:left;margin-bottom:20px}
+.registration-item-numb{width:50px;line-height:50px;vertical-align:top;display:inline-block;text-align:center;margin-top:5px;border-radius:50px;background-color:#f2f1ef;font-size:24px}
+.registration-item-descr{display:inline-block;width:220px;padding-left:10px}
+.registration-item-title{color:#000;margin-bottom:7px;font-weight:700}
+.registration-item-wrap-row:after, .registration:after, .registration-item-wrap:after{clear:both;display:table;content:" "}
+.hide-text, .bill-page-text > *{display:none}
+.open .bill-page-text > *{display:block}
+.bill-page-text p:first-child{display:block}
+.more-text, .hide-text{color:#d9534f;cursor:pointer}
+.open .more-text{display:none}
+.open .hide-text{display:block;margin-top:15px}
+.open .bill-page-text ul{list-style-type:disc;padding-left:40px;padding-bottom:10px}
+.payment-steps{height:35px;overflow:hidden;position:relative;margin-bottom:37px;margin-left:0 !important}
+.payment-steps li{height:35px;background:#f2f2f2;position:absolute;top:0;z-index:1}
+.payment-steps li > div{height:35px}
+.payment-steps .active{z-index:10}
+.payment-steps-3 .step-1{background:#f2f2f2 url(/v4/frontend/web/source/default/img/steps-arrows.png) right -80px no-repeat;width:33%;left:0;z-index:2}
+.payment-steps-3 .step-1.active{background:#e8dabb url(/v4/frontend/web/source/default/img/steps-arrows.png) right 0 no-repeat}
+.payment-steps-3 .step-2{width:35%;left:199px}
+.payment-steps-3 .step-2.active{background:#e8dabb url(/v4/frontend/web/source/default/img/steps-arrows.png) left -40px no-repeat}
+.payment-steps-3 .step-2.active > div{background:url(/v4/frontend/web/source/default/img/steps-arrows.png) right 0 no-repeat}
+.payment-steps-3 .step-3{background:#f2f2f2 url(/v4/frontend/web/source/default/img/steps-arrows.png) left -80px no-repeat;width:33%;left:408px}
+.payment-steps-3 .step-3.active{background:#e8dabb url(/v4/frontend/web/source/default/img/steps-arrows.png) left -40px no-repeat}
+.payment-steps-4 .step-1{background:#f2f2f2 url(/v4/frontend/web/source/default/img/steps-arrows.png) right -80px no-repeat;width:155px;left:0;z-index:2}
+.payment-steps-4 .step-1.active{background:#e8dabb url(/v4/frontend/web/source/default/img/steps-arrows.png) right 0 no-repeat}
+.payment-steps-4 .step-2{width:180px;left:130px}
+.payment-steps-4 .step-2.active{background:#e8dabb url(/v4/frontend/web/source/default/img/steps-arrows.png) left -40px no-repeat}
+.payment-steps-4 .step-2.active > div{background:url(/v4/frontend/web/source/default/img/steps-arrows.png) right 0 no-repeat}
+.payment-steps-4 .step-3{background:#f2f2f2 url(/v4/frontend/web/source/default/img/steps-arrows.png) left -80px no-repeat;width:165px;left:289px}
+.payment-steps-4 .step-3.active{background:#e8dabb url(/v4/frontend/web/source/default/img/steps-arrows.png) left -40px no-repeat}
+.payment-steps-4 .step-3.active > div{background:url(/v4/frontend/web/source/default/img/steps-arrows.png) right 0 no-repeat}
+.payment-steps-4 .step-4{background:#f2f2f2 url(/v4/frontend/web/source/default/img/steps-arrows.png) left -80px no-repeat;width:209px;left:450px}
+.payment-steps-4 .step-4.active{background:#e8dabb url(/v4/frontend/web/source/default/img/steps-arrows.png) left -40px no-repeat}
+.payment-steps .num{font-size:28px;font-weight:700;color:#bfbfbf;float:left;line-height:35px}
+.payment-steps p{text-transform:uppercase;font-size:11px;line-height:13px;font-weight:300;color:#bfbfbf;margin:0;padding:5px 0 0 22px;float:left}
+.payment-steps-4 p{padding:5px 0 0 7px}
+.payment-steps .step-1 .num{padding-left:9px}
+.payment-steps .step-2 .num{padding-left:37px}
+.payment-steps .step-3 .num{padding-left:38px}
+.payment-steps .step-4 .num{padding-left:35px}
+.payment-steps .active .num{color:#c7bb9d}
+.payment-steps .active p{color:#a49876}
+.aktsii-skibochka{margin-bottom:35px}
+.p2p_mainCont{margin:15px}
+#bill-page .field-descr{margin-right:-15px;padding:7px 5px;color:#fff;font-size:12px;line-height:12px}
+.arrow_box{position:relative;background:#f78147;border:1px solid #f78147}
+.arrow_box:after, .arrow_box:before{right:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
+.arrow_box:after{border-color:rgba(247, 129, 71, 0);border-right-color:#f78147;border-width:4px 15px;margin-top:-4px}
+.arrow_box:before{border-color:rgba(210, 100, 47, 0);border-right-color:#f78147;border-width:6px 16px;margin-top:-6px}
+.left-column .success-payments{margin:0 13px;padding:19px 7px 16px;text-align:center}
+.left-column .success-payments p{font-size:14px;line-height:18px;margin:0 0 8px;font-weight:300}
+.left-column .success-payments strong{font-size:18px;color:#5b6766;text-align:center}
+.left-column .success-payments .value{font-size:18px;color:#5b6766;text-align:center}
+.left-column .last-payment{padding:18px 20px 20px}
+.left-column .last-payment p{margin:0;font-size:14px;font-style:italic;text-align:center}
+.left-column .last-payment .value{font-size:24px;color:#6d8482;font-weight:700;margin:0 5px 0 7px}
+#bill-page{color:#6f6f6f;min-height:630px}
+.bill-blog{margin-left:0;margin-top:50px;padding:15px 0;border:1px solid #d3d3d3;border-radius:5px}
+.bill-blog .bill-blog-descr{padding-right:0;color:#000}
+.bill-blog .bill-blog-img{padding-left:0;color:#000;text-align:center}
+.bill-blog .vcenter{padding:0}
+#bill-page .utilities-counters{border:1px solid #ddd;margin-right:-15px;padding:15px;margin-bottom:20px;border-radius:5px;font-size:12px}
+#bill-page .utilities-counters .row{padding-bottom:7px}
+#bill-page .utilities-counters .service-title{font-size:14px;font-weight:700}
+#bill-page .utilities-counters .counter p{border-top:1px solid #bfbfbf;border-bottom:1px solid #bfbfbf;background-color:#f2f2f2;color:#666;margin:0;padding:5px 10px;font-size:14px}
+#bill-page .utilities-counters .counters .form-group, #bill-page .utilities-counters .counters .form-group .help-block{margin-bottom:0}
+#bill-page.bill-page-step2 .field-billform-invoice{background:#fcf9ed;padding:5px 15px;margin-right:-15px}
+#bill-page .vcenter label{margin-bottom:0}
+#bill-page .field-billform-service-invoice{padding-top:7px}
+#bill-page .service-fields .form-group{border-top:1px solid #ddd}
+#bill-page .service-info .row{padding:4px 0;border-bottom:1px solid #ccc}
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5{position:relative;min-height:1px;padding-right:10px;padding-left:10px}
+.col-xs-1-5{width:20%;float:left}
+#p2r-link.p2r-link-1{width:140px;border:1px solid #e6e6e6;background:#fff;margin-right:0;cursor:pointer}
+#p2r-link.p2r-link-1 .p2r-link{display:block;width:140px;background:url(/v4/frontend/web/source/default/img/bills/one_block.png) 46px 39px no-repeat;background-size:40%}
+#p2r-link.p2r-link-1 .title{font-size:11px;color:#202020;padding:5px 3px;margin-left:0;margin-top:0;width:140px;line-height:14px}
+#p2r-link .p2r-link:hover .button-light{background-color:#fff;border:1px solid #FF705E;color:#FF705E;padding:2px 11px;font-weight:400}
+#p2r-link.p2r-link-1 .button-light{font-size:14px;color:#fff;background-color:#F15B40;display:inline-block;margin-top:50%;padding:4px 13px;border-radius:4px;margin-top:65px;margin-right:0;line-height:20px}
+#p2r-link.p2r-link-2{width:303px;margin-right:0;border:1px solid #e6e6e6;background:#fff;cursor:pointer}
+#p2r-link.p2r-link-2 .p2r-link{display:block;width:303px;background:url(/v4/frontend/web/source/default/img/bills/two_block.png) 36px 25px no-repeat}
+#p2r-link.p2r-link-2 .title{font-size:11px;color:#202020;padding:5px;display:inline-block;float:left;margin-top:98px;width:133px;line-height:14px}
+.bill-list-companies li:hover a.p2r-link{background-color:#fff !important}
+#p2r-link.p2r-link-2 .button-light{font-size:16px;float:right;color:#fff;background-color:#F15B40;display:inline-block;margin-top:95px;padding:4px 15px;border-radius:4px;margin-right:35px;line-height:20px}
+#p2r-link.p2r-link-3{float:left;width:466px;background:#fff;-moz-border-radius:5px;margin-right:0;cursor:pointer}
+#p2r-link.p2r-link-3 .p2r-link{width:466px;display:block;background:url(/v4/frontend/web/source/default/img/bills/three_block_1.png) 18px 37px no-repeat, url(/v4/frontend/web/source/default/img/bills/three_block_2.png) 286px 24px no-repeat}
+#p2r-link.p2r-link-3 .title{font-size:11px;color:#202020;padding:5px 10px;display:inline-block;float:left;margin-top:55px;width:190px;margin-left:90px;line-height:14px}
+#p2r-link.p2r-link-3:hover .button-light{line-height:20px;}
+#p2r-link.p2r-link-3 .button-light{font-size:16px;float:right;color:#fff;background-color:#F15B40;display:inline-block;margin-top:95px;padding:4px 15px;border-radius:4px;margin-right:35px;line-height:20px}
+#p2r-link.p2r-link-4{float:left;width:628px;border:1px solid #e6e6e6;background:#fff;margin-right:0;cursor:pointer}
+#p2r-link.p2r-link-4 .p2r-link{display:block;width:628px;background:url(/v4/frontend/web/source/default/img/bills/four_block.png) 28px 21px no-repeat}
+#p2r-link.p2r-link-4 .title{font-size:11px;color:#202020;padding:5px 0;display:inline-block;float:left;margin-top:100px;width:220px;margin-left:168px;line-height:14px}
+#p2r-link.p2r-link-4 .button-light{font-size:16px;float:right;color:#fff;background-color:#F15B40;display:inline-block;margin-top:50px;padding:7px 20px;border-radius:4px;margin-right:40px;line-height:20px}
+#billformfrompaymasterpassonestepbill-masterpass_uid{-webkit-appearance:none;background:url('/v4/frontend/web/source/default/img/select-arrow.png') right center no-repeat;-moz-appearance:none;text-overflow:'';-ms-appearance:none;appearance:none !important;}
+#billformfrompaymasterpassonestepbill-masterpass_uid::-ms-expand{display:none;}
+#billformfrompaymasterpassonestepbill-masterpass_uid.select-masterpass{background:url('/v4/frontend/web/source/default/img/masterPass/masterpass_logo_small.png') 8px center no-repeat, url('/v4/frontend/web/source/default/img/select-arrow.png') right center no-repeat;padding-left:45px;}
+.masterpass-logo{text-align:right;margin-top:40px;margin-bottom:40px;}
+#bill-page .public-dogovor{display:inline-block;width:330px;padding-right:15px;font-size:12px;margin-top:5px;vertical-align:top;}
+#bill-page .public-dogovor a, #bill-page .public-dogovor a:hover, #bill-page .public-dogovor a:focus, #bill-page .public-dogovor a:active{color:#6f6f6f;}
+.payments-menu-list .active a:hover{
+    background:#E94F35;
+}
+.payments-menu-list .active a:hover .title, .payments-menu-list .active a:hover .desc {
+    color: #ffffff;
+}
+.payments-menu-list .crossbord i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-1.png) 0 0 no-repeat;
+}
+.payments-menu-list .cards i {
+    background: url(/v4/frontend/web/source/default/img/icon-menu-2.png) 0 0 no-repeat;
+    background-position:0;
+}
+.charge-mobile i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-4.png) 0 0 no-repeat;
+}
+.payments-menu-list .utilities i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-5.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .transfer-email i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-6.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .transfer-phone i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-7.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .detskiye-sady i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-9.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .internet i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-10.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .tv i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-11.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .telephony i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-12.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .security i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-13.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .transport i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-14.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .shtrafu i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-15.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .turism i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-16.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .insurance i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-17.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .p2r i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-8.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .education i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-18.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .business i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-19.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .get-transaction  i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-3.png) 0 0 no-repeat;
+    background-position:0;
+}
+
+.charge-mobile.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-4.png) 0 0 no-repeat;
+}
+.payments-menu-list .utilities.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-5.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .detskiye-sady.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-9.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .internet.active i{
+     background: url(/v4/frontend/web/source/default/img/icon-menu-white-10.png) 0 0 no-repeat;
+     background-position:0;
+}
+.payments-menu-list .tv.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-11.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .telephony.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-12.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .security.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-13.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .transport.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-14.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .shtrafu.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-15.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .turism.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-16.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .education.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-18.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .insurance.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-17.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .business.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-19.png) 0 0 no-repeat;
+    background-position:0;
+}
+.payments-menu-list .charity i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-20.png) 0 0 no-repeat;
+}
+.payments-menu-list .charity.active i{
+    background: url(/v4/frontend/web/source/default/img/icon-menu-white-20.png) 0 0 no-repeat;
+    background-position:0;
+}
+@media (min-width:992px){.bill-list-companies li:nth-child(4n+2){margin:0 23px}
+    .bill-list-companies li:nth-child(4n+3){margin-right:23px}
+    .payments-menu-list li:first-child{border-top:0}
+}
+@media (max-width:991px) and (min-width:768px){#bill-page .public-dogovor{margin-top:15px;}
+    #p2r-link.p2r-link-4{width:140px;border:1px solid #e6e6e6;background:#fff;margin-right:0;cursor:pointer}
+    #p2r-link.p2r-link-4 .p2r-link{display:block;width:140px;background:url(/v4/frontend/web/source/default/img/bills/one_block.png) 46px 39px no-repeat;background-size:40%}
+    #p2r-link.p2r-link-4 .title{font-size:11px;color:#202020;padding:5px 3px;margin-left:0;margin-top:0;width:140px}
+    #p2r-link.p2r-link-4 .button-light{font-size:14px;color:#fff;background-color:#F15B40;display:inline-block;margin-top:50%;padding:4px 13px;border-radius:4px;margin-top:64px;margin-right:27px}
+    #p2r-link.p2r-link-3 .p2r-link, #p2r-link.p2r-link-3{width:480px}
+    #p2r-link.p2r-link-2 .p2r-link, #p2r-link.p2r-link-2{width:310px}
+    .aktsii-skibochka img{width:100%}
+    #bill-page{min-height:auto}
+    .registration-item{text-align:center}
+    .registration-item-numb{display:block;margin:5px auto}
+    .payment-steps-4 .num{display:none}
+    .payment-steps-4 .step-1, .payment-steps-4 .step-2, .payment-steps-4 .step-3{width:125px}
+    .payment-steps-4 .step-4{width:140px}
+    .payment-steps-4 .step-2{left:100px;width:140px}
+    .payment-steps-4 .step-3{left:215px}
+    .payment-steps-4 .step-2 p{padding-left:30px}
+    .payment-steps-4 .step-3 p{padding-left:30px}
+    .payment-steps-4 .step-4 p{padding-left:30px}
+    .payment-steps-4 .step-4{left:330px}
+    .payment-steps p{padding:5px 0 0 8px;white-space:nowrap}
+    .payment-steps-3 .step-3{width:40%;left:285px}
+    .payment-steps-3 .step-2{left:124px}
+    .bill-blog-item{margin-bottom:20px}
+    #bill-page .d-img{width:25%}
+    #bill-page .d-text{width:65%}
+    #bill-page h1{font-size:22px}
+    .company-info .contacts, .company-info .logo{width:100%}
+    .company-info .logo{min-height:90px}
+    .company-info .logo-wrap{float:none;width:100px;margin:8px auto;min-height:60px;border-bottom:1px solid #e6e6e6;border-right:0}
+    .own_banner img{width:100%}
+    .payments-menu-list i{display:none}
+    .payments-menu-list li:first-child{border-top:0}
+    .payments-menu-list a{padding:9px 0 12px 15px}
+    .bill-list-companies li:nth-child(3n+2){margin:0 30px}
+    #bill-page .btn-bills{margin-top:10px}
+    .payments-menu-list .crossbord  i{
+        display: none;
+    }
+}
+@media (max-width:767px){#bill-page .public-dogovor{margin-top:30px;margin-bottom:0;width:100%;}
+    .masterpass-logo{text-align:center;margin-top:30px;margin-bottom:30px;}
+    .masterpass-logo img{width:100%;max-width:300px;}
+    #p2r-link.p2r-link-1 .p2r-link{background:url(/v4/frontend/web/source/default/img/bills/one_block.png) 39px 32px no-repeat;background-size:40%}
+    #p2r-link.p2r-link-1 .p2r-link, #p2r-link.p2r-link-1{width:120px}
+    #p2r-link.p2r-link-1 .button-light{margin-top:51px}
+    #p2r-link.p2r-link-1 .title{font-size:11px;color:#202020;padding:1px 3px;margin-left:0;margin-top:0;width:120px;line-height:10px;height:34px;}
+    #p2r-link.p2r-link-4{width:120px;border:1px solid #e6e6e6;background:#fff;margin-right:0;cursor:pointer}
+    #p2r-link.p2r-link-4 .p2r-link{display:block;width:120px;background:url(/v4/frontend/web/source/default/img/bills/one_block.png) 42px 36px no-repeat;background-size:40%}
+    #p2r-link.p2r-link-4 .title{font-size:11px;color:#202020;padding:5px 3px;margin-left:0;margin-top:0;width:120px}
+    #p2r-link.p2r-link-4 .button-light{font-size:14px;color:#fff;background-color:#F15B40;display:inline-block;margin-top:50%;padding:4px 13px;border-radius:4px;margin-top:50px;margin-right:14px}
+    #p2r-link.p2r-link-3 .p2r-link, #p2r-link.p2r-link-3{width:389px}
+    #p2r-link.p2r-link-3 .p2r-link{background:url(/v4/frontend/web/source/default/img/bills/three_block_1.png) 12px 27px no-repeat, url(/v4/frontend/web/source/default/img/bills/three_block_2.png) 223px 10px no-repeat}
+    #p2r-link.p2r-link-3 .title{margin-left:74px;margin-top:45px;width:150px}
+    #p2r-link.p2r-link-3 .button-light{margin-top:75px}
+    #p2r-link.p2r-link-2{width:255px}
+    #p2r-link.p2r-link-2 .p2r-link{width:255px;background:url(/v4/frontend/web/source/default/img/bills/two_block.png) 13px 10px no-repeat;background-size:90%}
+    #p2r-link.p2r-link-2 .title{margin-top:77px}
+    #p2r-link.p2r-link-2 .button-light{margin-right:12px;margin-top:80px;padding:4px 10px}
+    .payments-menu-list li:hover:before, .payments-menu-list li.active:before{display:none}
+    .aktsii-skibochka img{width:100%}
+    #bill-page{min-height:auto}
+    .registration-item-descr{width:185px}
+    .registration{margin:30px -15px}
+    .registration-item{width:100%}
+    #bill-page.bill-page-step2 .p2p_mainCont{margin:15px 0 0}
+    #bill-page .utilities-counters .counters label{white-space:nowrap;padding-top:10px}
+    #bill-page .utilities-counters .counter{padding-bottom:0}
+    #bill-page .utilities-counters{margin-right:0}
+    #bill-page .utilities-counters .counter-items{padding:15px 0;border-bottom:1px solid #e6e6e6}
+    #bill-page.bill-page-step2 .field-billform-invoice{margin-right:0}
+    #bill-page .btn-bills{margin-top:20px}
+    #bill-page .help-block{margin:0 !important}
+    #bill-page .form-group{margin-bottom:5px}
+    .payment-steps-4 p{display:none}
+    .payment-steps-4 .step-1, .payment-steps-4 .step-2, .payment-steps-4 .step-3, .payment-steps-4 .step-4{width:115px}
+    .payment-steps.payment-steps-4 .step-1 .num{padding-left:30px}
+    .payment-steps-4 .step-2{left:75px;width:120px}
+    .payment-steps.payment-steps-4 .step-2 .num{padding-left:50px}
+    .payment-steps-4 .step-3{left:170px}
+    .payment-steps.payment-steps-4 .step-3 .num{padding-left:60px}
+    .payment-steps-4 .step-4{left:280px}
+    .payment-steps.payment-steps-4 .step-4 .num{padding-left:60px}
+    .payment-steps{margin-left:-15px !important}
+    .payment-steps-3 .step-2{left:102px}
+    .payment-steps-3 .step-3{left:238px;width:45%}
+    .payment-steps .step-2 .num{padding-left:30px}
+    .payment-steps .step-3 .num{padding-left:29px}
+    .payment-steps p{padding:5px 0 0 5px !important}
+    .payment-steps .step-1 .num{padding-left:5px}
+    .bill-blog{margin-left:-15px}
+    .bill-blog-item{margin-bottom:20px}
+    #bill-form .text-right{text-align:center}
+    .create-payment-block #bill-form .text-right{text-align:right}
+    #bill-form .form-group .control-label.text-right{text-align:left;padding-left:0}
+    #bill-form .form-group .control-label.text-right label{margin-bottom:0}
+    #bill-page h1{font-size:22px;margin:0 -15px 10px}
+    #bill-page h5{margin:10px -15px}
+    #bill-page .clear{margin-top:20px}
+    .breadcrumb, .breadcrumbs-wrap{background-color:#6c8592;color:#fff !important;line-height:normal}
+    .nav-more{display:none;border-top:0}
+    .payments-menu-list li{float:left;width:192px;padding:0;border:1px solid #e6e6e6;border-radius:2px;margin-top:10px}
+    .payments-menu-list a{height:62px}
+    .single-search-panel .search-box, .search-panel .search-box{float:none}
+    .search-box .single-field{width:100%}
+    .payments-menu-list{border:none}
+    .payments-menu-list .desc{display:none}
+    .payments-menu-list a{padding:9px 0 12px 59px}
+    .payments-menu-list ul li:nth-child(odd){margin-right:10px}
+    .payments-menu-list div.fr{display:none}
+    .payments-menu-list i{left:11px;top:10px}
+    .nav-more .charity .title{text-align:center}
+    .payments-menu-list .charity a{padding:12px 0 12px 40px;}
+    .payments-menu-list .charity a span{font-size:14px;}
+    .bill-list-companies li{width:120px;height:120px}
+    .bill-list-companies li:nth-child(3n+2){margin:0 15px}
+    .bill-list-companies li a{width:120px;height:120px;line-height:120px}
+    #p2r-link.p2r-link .bill-name{padding:0;line-height:12px;font-size:11px}
+    #p2r-link.p2r-link{background:url(/v4/frontend/web/source/default/img/one_block.png) 40px 34px no-repeat, #fff;background-size:43%}
+    #p2r-link.p2r-link .button-light{margin-top:52px}
+    .bill-main-wrap{margin-left:0}
+    #more-menu{display:block;float:left}
+    .payments-menu-list .title{
+        font-size: 15px;
+    }
+}
+@media (max-width:424px){#p2r-link.p2r-link-1{width:130px;border:1px solid #e6e6e6;background:#fff;margin-right:0;cursor:pointer}
+    #p2r-link.p2r-link-1 .p2r-link{display:block;width:130px;background:url(/v4/frontend/web/source/default/img/bills/one_block.png) 46px 39px no-repeat;background-size:40%}
+    #p2r-link.p2r-link-1 .title{font-size:11px;color:#202020;padding:5px 3px;margin-left:0;margin-top:0;width:130px;line-height:14px}
+    #p2r-link.p2r-link-1 .button-light{font-size:14px;color:#fff;background-color:#F15B40;display:inline-block;margin-top:50%;padding:4px 13px;border-radius:4px;margin-top:58px;margin-right:0px;line-height:20px}
+    #p2r-link.p2r-link-4{width:288px}
+    #p2r-link.p2r-link-4 .p2r-link{width:288px;background:url(/v4/frontend/web/source/default/img/bills/two_block.png) 13px 10px no-repeat;background-size:90%}
+    #p2r-link.p2r-link-4 .title{margin-top:85px;margin-left:8px}
+    #p2r-link.p2r-link-4 .button-light{margin-right:16px;margin-top:91px}
+    #p2r-link.p2r-link-3{width:130px;border:1px solid #e6e6e6;background:#fff;margin-right:0;cursor:pointer}
+    #p2r-link.p2r-link-3 .p2r-link{display:block;width:130px;background:url(/v4/frontend/web/source/default/img/bills/one_block.png) 46px 39px no-repeat;background-size:40%}
+    #p2r-link.p2r-link-3 .title{font-size:11px;color:#202020;padding:5px 3px;margin-left:0;margin-top:0;width:130px}
+    #p2r-link.p2r-link-3 .button-light{font-size:14px;color:#fff;background-color:#F15B40;display:inline-block;margin-top:50%;padding:4px 13px;border-radius:4px;margin-top:58px;margin-right:20px}
+    #p2r-link.p2r-link-2 .p2r-link, #p2r-link.p2r-link-2{width:288px}
+    #p2r-link.p2r-link-2 .title{margin-top:85px;margin-left:8px}
+    #p2r-link.p2r-link-2 .button-light{margin-top:91px;margin-right:16px}
+    .payment-steps-4 .step-2, .payment-steps-4 .step-3{width:73px}
+    .payment-steps-4 .step-4{width:80px}
+    .payment-steps-4 .step-1{width:85px}
+    .payment-steps.payment-steps-4 .step-1 .num{padding-left:25px}
+    .payment-steps-4 .step-2{left:60px;width:105px}
+    .payment-steps.payment-steps-4 .step-2 .num{padding-left:45px}
+    .payment-steps-4 .step-3{left:140px}
+    .payment-steps.payment-steps-4 .step-3 .num{padding-left:42px}
+    .payment-steps-4 .step-4{left:213px}
+    .payment-steps.payment-steps-4 .step-4 .num{padding-left:42px}
+    .payment-steps p{display:none}
+    .payment-steps-3 .step-2{left:105px}
+    .payment-steps-3 .step-1{width:37%}
+    .payment-steps-3 .step-3{left:184px}
+    .payment-steps .step-3 .num{padding-left:53px}
+    .payment-steps .step-1 .num{padding-left:33px}
+    .payments-menu-list li{width:140px}
+    .payments-menu-list i{display:none}
+    .payments-menu-list a{padding:9px 0 12px 15px}
+    .bill-list-companies li:nth-child(3n+2){margin:0 0 25px}
+    .bill-list-companies li:nth-child(2n){margin:0 0 25px 28px}
+    .bill-list-companies li{width:130px;height:130px}
+    .bill-list-companies li a{width:130px;height:130px;line-height:130px}
+    #p2r-link.p2r-link .bill-name{padding:0;line-height:12px;font-size:12px}
+    #p2r-link.p2r-link .button-light{margin-top:59px}
+    .payments-menu-list .crossbord  i{
+        display: none;
+    }
+    .payments-menu-list .title {
+        display: block;
+        font-size: 14px;
+    }
+    .payments-menu-list .charity a{padding:12px 0 12px 0;}
+}
+@media (min-width:768px){.col-sm-1-5{width:20%;float:left}
+}
+@media (min-width:992px){.col-md-1-5{width:20%;float:left}
+}
+@media (min-width:1200px){.col-lg-1-5{width:20%;float:left}
+}

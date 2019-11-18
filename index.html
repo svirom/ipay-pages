@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MasterPass – безопасная оплата покупок в Интернете - iPay.ua</title>
+  <meta name="description" content="Быстрые электронные платежи без ввода данных карт! Покупайте товары и оплачивайте услуги в один клик!">
+          
+  <link href="css/styles-masterpass.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style-head-foot.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/category.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/main-page-new.css" rel="stylesheet">
+  <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet">
+
+  <style>
+    @media screen and (max-width: 767px) {
+      #header .account span.btn-logout {
+        display: block!important;
+      }
+      .account i.i-logout {
+        display:none!important
+      }
+    }
+  </style>  
+                      
+</head>
+<body>
+ 
+  <!-- main header -->
+  <header id="header" class="main" style="height: 80px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-7">
+          <a href="/ru" title="iPay.ua" name="iPay.ua">
+            <div class="logo-wrap"></div>
+          </a>
+          <div class="active-users hidden-xs">
+            <span class="count">
+              <i class="fa fa-male fa-2x" aria-hidden="true"></i>
+              245
+            </span>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6 text-right col-xs-5">
+          <div class="lang-switcher" >
+            <div class="current-lang">
+              <a name="chooseLang" class="icon pointer">
+                <i class="fa fa-language fa-2x"></i>
+                <span class="hidden-sm mainMenu-text-item">
+                 РУС
+                </span>
+                <i></i>
+              </a>
+            </div>
+            <div class="chooseLang" style="display:none">
+              <div class="tab">
+                <a href="/ua/masterpass" class="tr">
+                  <div class="td">
+                     УКР
+                 </div>
+                </a>
+                <a href="/en/masterpass" class="tr">
+                  <div class="td">
+                     ENG
+                 </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="account">
+            <a href="/ru/user/signin">
+              <i></i>
+              <span class="hidden-xs">Войти</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header><!-- end main header -->
+ 
+  <!-- main footer -->
+  <footer id="i-bottom-foot">
+    <nav class="navbar navbar-default i-foot" role="navigation">
+      <div class="container-fluide foot-top">
+        <div class="container" id="foot_top-navbar-collapse-social">
+          <div class="row" >
+            <div class=" col-md-4 col-sm-6 col-xs-9">
+              <ul class="nav navbar-nav navbar-left foot_top-mainMenu">
+                <li class="foot_top-mainMenu-label hidden-xs">Мы рядом:</li>
+                <li>
+                  <a rel="nofollow" href="https://www.facebook.com/iPay.ua" target="_blank">
+                    <i class="fa fa-facebook fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="/ru/faq" target="_blank">
+                    <i class="fa fa-question-circle fa-2x foot-icon_and_text"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-offset-7 col-md-1 col-sm-2 col-sm-offset-4 col-xs-3 foot_top-navbar-social"id="i-show-hide-foot">
+              <ul class="nav navbar-nav navbar-right foot_top-mainMenu">
+                <li class="foot_top-mainMenu-lastChild">
+                  <a><i class="fa fa-chevron-circle-down fa-2x" id="chevron-change"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluide foot-bottom">
+        <div class="container" id="foot_top-navbar-collapse">
+          <div class="row">
+            <div class="col-md-5 col-sm-8 col-xs-12">
+              <ul class="nav navbar-nav navbar-left foot_bottom-mainMenu">
+                <li>
+                  <a id="foot-bottom-HIDE-aCompany-link">
+                    <span class="text-capitalize">о</span> <span> компании</span>
+                  </a>
+                </li>
+                <li class="foot_bottom-mainMenu-slash"><span>/</span></li>
+                <li>
+                  <a id="foot-bottom-HIDE-contacts">
+                    <span class="text-capitalize">контакты</span>
+                  </a>
+                </li>
+                <li class="foot_bottom-mainMenu-slash"><span>/</span></li>
+                <li>
+                  <a id="foot-bottom-HIDE-support">
+                    <span class="text-capitalize">служба </span><span>поддержки</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-md-offset-3 col-sm-4 hidden-xs foot_top-navbar-cetificates"></div>
+          </div>
+          <div class="row foot-bottom-HIDE_info">
+            <div class="col-md-12 col-sm-12 col-xs-12 foot-bottom-HIDE_info-aboutCompany" id="foot-bottom-HIDE-aCompany-link-block">
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                  <ul>
+                    <li>
+                      <a href="/ru/about">
+                        <span class="text-capitalize">о</span> компании 
+                      </a>
+                      <div class="pull-right visible-xs-inline-block visa-logo"></div>
+                    </li>
+                    <li>
+                      <a href="/ru/partners">
+                        <span class="text-capitalize">партнерам</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/ru/security">
+                        <span class="text-capitalize">безопасность</span>
+                      </a>
+                      <div class="pull-right visible-xs-inline-block dss-logo"></div>
+                    </li>
+                    <li>
+                      <a href="/ru/job">
+                        <span class="text-capitalize">вакансии</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                  <ul>
+                    <li>
+                      <a href="/blog/akcii">
+                        <span class="text-capitalize">акции</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/blog/news">
+                        <span class="text-capitalize">новости</span>
+                      </a>
+                      <div class="pull-right visible-xs-inline-block mastercard-logo"></div>
+                    </li>
+                    <li>
+                      <a href="/blog">
+                        <span class="text-capitalize">блог</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/internet-acquiring-masterpass/index.html">
+                        <span class="text-capitalize">Интернет Эквайринг Masterpass</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 foot-bottom-HIDE_info-contacts" id="foot-bottom-HIDE-contacts-block">
+              <div class="row foot-bottom-HIDE_info-contacts">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <ul>
+                    <li>
+                      <i class="fa fa-clock-o fa-2x foot-icon_and_text"></i>Пн-Пт 9:00-18:00
+                    </li>
+                    <li>
+                      <i class="fa fa-phone fa-2x foot-icon_and_text"></i>+38 044 502 50 75
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <ul>
+                    <li>
+                      <i class="fa fa-envelope-o fa-2x foot-icon_and_text"></i>
+                      <a href="mailto:sales@ipay.ua" >sales@ipay.ua</a>
+                      <span>- отдел продаж</span>
+                    </li>
+                    <li>
+                      <i class="fa fa-envelope-o fa-2x foot-icon_and_text"></i>
+                      <a href="mailto:marketing@ipay.ua">marketing@ipay.ua </a>
+                      <span>- отдел маркетинга</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <ul>
+                    <li>
+                      <i class="fa fa-map-marker fa-2x foot-icon_and_text"></i> г. Киев  ул. Нижнеюрковская, 45а ООО "Универсальный дата центр"
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 foot-bottom-HIDE_info-support" id="foot-bottom-HIDE-support-block">
+              <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                  <ul>
+                    <li>
+                      <i class="fa fa-clock-o fa-2x foot-icon_and_text"></i>
+                      <span class="text-capitalize">пн</span> - <span class="text-capitalize">пт </span>8:00 - 22:00
+                    </li>
+                    <li>
+                      <i class="fa fa-clock-o fa-2x foot-icon_and_text"></i>
+                      <span class="text-capitalize">сб</span> - <span class="text-capitalize">нд </span>9:00 - 21:00
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-5 col-md-offset-1 col-sm-4 col-xs-12 foot-bottom-HIDE-item">
+                  <ul>
+                    <li>
+                      <i class="fa fa-mobile fa-2x foot-icon_and_text"></i>
+                      <span>
+                        <a href="tel:0800601160">0 800 60 11 60</a>
+                      </span>
+                    </li>
+                    <li style="line-height: 30px;font-size: 16px;padding-left: 10px;white-space: nowrap;">БЕСПЛАТНО С МОБИЛЬНЫХ</li>
+                    <li>
+                      <i class="fa fa-phone    fa-2x foot-icon_and_text"></i>
+                      <span>
+                        <a href="tel:+380445021160">+38 044 502 11 60</a>
+                      </span>
+                    </li>
+                    <li style="line-height: 30px;font-size: 16px;padding-left: 10px;white-space: nowrap;">ДЛЯ МЕЖДУНАРОДНЫХ ЗВОНКОВ</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                  <ul>
+                    <li>
+                      <i class="fa fa-envelope-o fa-2x foot-icon_and_text"></i>
+                      <a href="mailto:help@ipay.ua">help@ipay.ua</a>
+                    </li>
+                    <li>
+                      <i class="fa fa-question-circle fa-2x foot-icon_and_text"></i>
+                      <a href="/ru/faq/answer-1">
+                        <span class="text-capitalize">вопрос - </span>
+                        ответ
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row text-center i-copyRight">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <p class="i-cR-logo">© іPay.ua</p>
+            <p>Внутригосударственная небанковская платежная система «Финансовый мир» , 04080, г. Киев, улица Межигорская, дом 82 А, корпус Б, офис 309<br>Общество с ограниченной ответственностью «Универсальные платежные решения»<br>Внутригосударственная платежная система «FLASHPAY», 03039, г. Киев, проспект Голосеевский, дом 26-А </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </footer><!-- end main footer -->
+  
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/menu_foot_head.min.js"></script>
+
+</body>
+</html>
+ 
+ 

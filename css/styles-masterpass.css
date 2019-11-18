@@ -1,0 +1,170 @@
+/* @font-face {
+	font-family: 'helvetica-light';
+	src:url(/v4/frontend/web/source/default/fonts/helveticaneuecyr-light.otf);
+}
+@font-face {
+	font-family: 'helvetica-medium';
+	src:url(/v4/frontend/web/source/default/fonts/helveticaneuecyr-medium.otf);
+}
+@font-face {
+	font-family: 'helvetica-roman';
+	src:url(/v4/frontend/web/source/default/fonts/helveticaneuecyr-roman.otf);
+} */
+
+body{font-family:sans-serif;}
+#content{font-family: sans-serif !important;color: #777;}
+#content h1, #content h2, #content h3,#content h4{color: #333;font-family: sans-serif;}
+.breadcrumb a{text-decoration:underline;color:#f5533f}
+.breadcrumb a:hover{text-decoration:none;color:#E93D29}
+.breadcrumb{margin-bottom:0}
+.top-head{height:600px; background: #62616a url(/v4/frontend/web/source/default/img/masterPass/head-bg.png) right 0 no-repeat;}
+.top-head-descr p{    margin-left: 20px;font-family: sans-serif;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 100;margin-bottom: 60px;width: 55%;}
+.top-head-descr img{margin-left: 20px;}
+.small-text{       font-size: 20px;
+    vertical-align: super;
+    padding-left: 3px;}
+.video-wrap{display: inline-block;padding: 10px;background-color: #fff}
+.video-wrap iframe{width:475px; height:267px;}
+.video-wrap p{margin: 15px 0 10px;font-size: 14px;font-family: sans-serif;}
+.video-descr p{font-size: 14px;font-family: sans-serif;line-height: 20px;margin-bottom: 30px}
+.top-head-descr{height:380px;-webkit-background-size:contain;background-size:contain}
+#content .head-descr{font-size:30px;font-weight:400;line-height:35px;color:#fff;margin-top:120px;margin-left:20px;font-family: sans-serif;}
+.btn_credit{margin:68px 0 0 20px;display:block;vertical-align:top;height:42px;width:207px;line-height:39px;text-transform:capitalize;color:#fff;background-color:#E93D29;text-align:center;border-radius:4px;font-familysans-seriffont-size:14px;text-decoration:none;font-weight:600;border:1px solid #E93D29}
+.credit-video{margin:30px 0 0;border:2px solid #fff;border-bottom:3px solid #fff;border-radius:2px;width:560px;height:315px}
+.btn_credit:hover{color:#E93D29;background-color:#fff;border:1px solid #E93D29;text-decoration:none}
+.btn_credit:focus,.btn_credit:visited{text-decoration:none}
+.privilege-icon-money,.privilege-icon-sport,.privilege-icon-web{width:115px;height:115px;display:inline-block}
+.privilege-icon-money{background:#fff url(/v4/frontend/web/source/default/img/icon-credit.png) 10px 0 no-repeat}
+.privilege-icon-sport{background:#fff url(/v4/frontend/web/source/default/img/icon-credit.png) -108px 0 no-repeat}
+.privilege-icon-web{background:#fff url(/v4/frontend/web/source/default/img/icon-credit.png) -225px 0 no-repeat}
+#content h1{font-size:36px;font-weight:400;margin-bottom:25px}
+.bold{font-weight:700;color:#000}
+.privilege p{padding:0 15px}
+.privilege{padding-top:35px;padding-bottom:40px;background-color: #eaeaea}
+.how-it-works{padding-top:35px;padding-bottom:40px;}
+.how-it-works .bold-step{font-size:40px;font-weight:700;padding-left:10px}
+.how-it-works .step{position:relative}
+.how-it-works p.bold-step{font-size: 72px;color: #333;display: inline-block;padding: 0;line-height: 62px;}
+.step > div{padding: 0;}
+.how-it-works .bold-step-descr{font-family: sans-serif;display: inline-block;font-size: 20px;padding: 0;line-height: 33px;margin-bottom: 18px;}
+.step-descr, .step-descr p{padding: 0 !important;}
+.how-it-works p{padding:0 20px 0 10px;font-family: sans-serif;}
+.how-it-works-title h3{font-size: 36px; font-weight: 400; margin-bottom: 40px;}
+.how-it-works-title p{font-size: 18px;margin-bottom: 80px;}
+.security-text p{margin: 0; padding: 0;margin-bottom: 40px; line-height: 19px;padding-right: 50px;}
+.security-text{background: #fff url(/v4/frontend/web/source/default/img/masterPass/hand.png) right 0 no-repeat;margin-bottom: 40px;}
+#content .privilege-text h3{color: #fff;margin-bottom: 70px;}
+#content .privilege-text h4{color: #fff;margin: 0 0 15px;    font-family: sans-serif;font-size: 24px;}
+#content .privilege-text .privilege-text-item{margin-bottom: 70px;}
+.privilege-text p{padding: 0;color: #eee;}
+.privilege-text{background: #49465a ;color: #fff !important}
+.signup h3{margin-bottom: 20px;}
+.signup h5{font-size: 24px;font-family: sans-serif;margin-bottom: 30px}
+.signup p{margin-bottom: 30px;}
+.form-group-item{display:table-cell}
+.form-group-label{display:table-cell;width:40%;text-align:right;padding-right:20px}
+.form-group{display:table;width:100%}
+.form-credit-step-1{padding:20px}
+.form-credit-step-2{padding:20px 100px 30px 0}
+.form-credit-step-3{padding:30px 30px 50px}
+.steps .form-credit-step-1,.steps .form-credit-step-2,.steps .form-credit-step-3{background-color:#fafafa;color:#656565}
+.checkbox{margin-top:30px}
+.checkbox label,.radio label{font-size:12px}
+.btn-credit{padding:7px 60px;font-size:16px;position:relative;margin-top:5px}
+.btn-danger{background:#ed1c24;border-bottom:2px solid #b01418;-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
+.btn-danger:hover{color:#fff;background-color:#c9302c;border-color:#ac2925}
+.checkbox input[type=checkbox],.checkbox-inline input[type=checkbox],.radio input[type=radio],.radio-inline input[type=radio]{top:0}
+.steps{margin-top:40px}
+.form-credit-step-1 .checkbox{padding-left:0;margin-top:10px;line-height:40px}
+.form-credit-step-1 .checkbox span{padding-left:120px}
+.form-credit-step-2{padding-left:50px}
+.form-credit-step-2 .btn-credit{margin-left:0}
+.form-credit-step-1 .checkbox input[type=checkbox]{top:10px}
+.form-credit-step-3 h3{font-size:18px}
+.col15-md-3, .col15-sm-3, .col15-xs-3, .col15-xs-12{
+	  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 20%;  
+}
+.signup-services p{font-family: sans-serif;padding: 0;}
+.signup-services{margin-top: 10px;}
+.signup-services img{margin-bottom: 20px;}
+.signin-text p{font-size: 18px;font-family: sans-serif;color: #333;}
+.signin-text{margin: 40px 0;}
+.signin-btn, .signin-btn:hover, .signin-btn:active,.signin-btn:focus{
+	display: inline-block;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #333;
+    line-height: normal !important;
+    padding: 15px 30px;
+    text-decoration: none !important;
+  	font-family: sans-serif;}
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+.signup-services a, .signup-services a:hover, .signup-services a:focus, .signup-services a:active{display: block;color: #777;text-decoration: none;}
+
+
+@media (min-width: 991px) {.signup-services .col-md-3{width: 20%;}}
+@media (max-width: 991px) and (min-width: 768px) {
+.signup-services .col-sm-3{width: 20%;}
+#content h1{font-size:22px}
+.head-descr{margin-left:0;margin-top:65px}
+.btn_credit{margin-left:0}
+.credit-video{width:470px;height:265px}
+.top-head-descr,.top-head{height:500px}
+.video-wrap iframe {width: 350px;height: 197px;}
+.how-it-works .bold-step-descr{font-size: 16px;line-height: 29px;}
+.how-it-works p.bold-step{font-size: 54px;}
+.security-text{    background: #fff url(/v4/frontend/web/source/default/img/masterPass/hand.png) right 160px no-repeat;-webkit-background-size: 50%;
+background-size: 50%;}
+}
+@media (max-width: 767px) {
+	.signup-services > div{    display: inline-block;
+    margin-bottom: 10px;
+    height: 140px;
+    overflow: hidden;
+    vertical-align: top;}
+	.top-head{    background: #62616a url(/v4/frontend/web/source/default/img/masterPass/head-bg.png) -329px 0 no-repeat;-webkit-background-size:225% ;background-size: 225%;}
+	.privilege-text-item .col-xs-12{padding: 0;}
+	.privilege-text-item img{margin-bottom: 15px;}
+	.security-text p{padding-right: 0;}
+	.security-text{background: none;}
+	.how-it-works-title p{margin-bottom: 40px;padding: 0;}
+.step-descr{margin-bottom: 20px;}
+	.step-descr p, .how-it-works .bold-step-descr{text-align: left;}
+	.how-it-works-title p{font-size: 14px;}
+	.video-wrap{margin-bottom: 20px;}
+	.video-wrap p{font-size: 12px;}
+	.how-it-works-title h3{font-size: 20px;}
+	.video-wrap iframe{width: 100%;height: 100%;}
+.top-head-descr ,.top-head-descr img {margin-left: 0px;text-align: center;}
+#content .head-descr{margin-top: 30px;text-align: center;margin-left: 0;font-size: 22px;}
+.top-head-descr p{margin-left: 0; text-align: center;font-size: 18px;width: 100%;}
+.col15-xs-3{width: 50%;}
+.col15-xs-12{width: 100%;}
+.top-head-descr,.top-head{height:325px}
+.credit-video{width:100%;height:224px}
+.how-it-works .bold-step{padding-left:0}
+.how-it-works{text-align:center}
+.top-head-descr{background:none}
+.head-descr{font-size:20px;font-weight:700;line-height:25px;margin-top:20px;margin-left:0}
+.btn_credit{margin:40px 0 0;width:163px}
+.form-credit-step-1,.form-credit-step-2,.form-credit-step-3{padding:20px 10px}
+.form-credit-step-2 .btn-credit,.form-credit-step-1 .btn-credit{margin:0 auto;display:block}
+.form-group-label{display:inline-block;text-align:left;width:100%}
+.checkbox{padding-left:0}
+.how-it-works{padding-bottom: 0;padding-top: 0;}
+ .top-head-descr img{width: 75%;}
+}
+
+
+
