@@ -1,0 +1,176 @@
+body {
+  color: #373737;
+}
+.insurance-main-section h1 {
+  margin-bottom: 20px;
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 600;
+  color: #E94F35; 
+}
+.insurance-main-section h2, 
+.insurance-main-section h3, 
+.insurance-main-section h4 {
+  color: #353535;
+}
+.insurance-main-section h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 600;
+}
+.insurance-main-section h3 {
+  font-size: 22px;
+  line-height: 1.1;
+}
+.insurance-main-section h4 {
+  font-size: 20px;
+  line-height: 1.1;
+}
+.insurance-main-section h5 {
+  font-size: 18px;
+  line-height: 1;
+}
+.insurance-main-section p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #373737;
+}
+.insurance-main-section .btn-insurance {
+  padding: 16px 78px;
+  font-size: 22px;
+  line-height: 1.18;
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #E94F35;
+}
+.insurance-main-section .btn-insurance:hover, 
+.insurance-main-section .btn-insurance:focus,
+.insurance-main-section .btn-insurance.focus {
+  color: #ffffff;
+  background-color: #B83F2A;
+}
+.insurance-list li {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 30px;
+  font-size: 16px;
+}
+.insurance-list li::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 19px;
+  height: 4px;
+  left: 0;
+  top: 7px;
+  background-color: #E94F35;
+}
+
+@media screen and (min-width: 1200px) {
+  .insurance-main-section .pr-lg-0 {
+    padding-right: 0!important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .insurance-main-section h1 {
+    font-size: 30px;
+  }
+  .insurance-main-section h2 {
+    font-size: 24px;
+  }
+  .insurance-main-section .btn-insurance {
+    padding: 10px 35px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-main-section h1 {
+    font-size: 22px;
+  }
+  .insurance-main-section h2 {
+    font-size: 20px;
+  }
+}
+
+/* breadcrumbs */
+.breadcrumbs {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #6C8592;
+}
+.breadcrumbs-list li,
+.breadcrumbs-list li a,
+.breadcrumbs-list li span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  color: #ffffff;
+}
+.breadcrumbs-list li::after {
+  padding-right: 5px;
+  content: '/';
+}
+.breadcrumbs-list li:last-child::after {
+  content: '';
+}
+.breadcrumbs-list li a:hover {
+  text-decoration: underline!important;
+}
+
+/* title section */
+.insurance-title {
+  padding: 72px 0;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+}
+.insurance-title.osago-title {
+  background-image: url('../img/osago/osago-title-img.jpg');
+}
+.insurance-title p {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1366px) {
+  .insurance-title {
+    background-position: right -90px center;
+    background-size: 57% auto;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .insurance-title {
+    padding: 50px 0;
+    background-position: right -35px center;
+    background-size: 48% auto;
+  }
+  .insurance-title.osago-title {
+    background-image: url('../img/osago/osago-title-img-md.jpg');
+  }
+  .insurance-title p {
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-title {
+    background-image: none!important;
+  }
+}
+
+/* insurance about section */
+.insurance-about {
+  padding: 60px 0 30px;
+  color: #ffffff;
+  background-color: #373737;
+}
+.insurance-about h2 {
+  color: #E94F35;
+}
+.insurance-about p {
+  color: #ffffff;
+}
+@media screen and (max-width: 1199px) {
+  .insurance-about {
+    padding: 40px 0 20px;
+  }
+}
