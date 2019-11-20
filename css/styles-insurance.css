@@ -9,8 +9,7 @@ body {
   color: #E94F35; 
 }
 .insurance-main-section h2, 
-.insurance-main-section h3, 
-.insurance-main-section h4 {
+.insurance-main-section h3 {
   color: #353535;
 }
 .insurance-main-section h2 {
@@ -20,14 +19,11 @@ body {
   font-weight: 600;
 }
 .insurance-main-section h3 {
-  font-size: 22px;
-  line-height: 1.1;
-}
-.insurance-main-section h4 {
   font-size: 20px;
   line-height: 1.1;
+  font-weight: 600;
 }
-.insurance-main-section h5 {
+.insurance-main-section h4 {
   font-size: 18px;
   line-height: 1;
 }
@@ -36,6 +32,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #373737;
+}
+.insurance-dark {
+  color: #ffffff;
+  background-color: #373737;
+}
+.insurance-dark h2 {
+  color: #E94F35;
+}
+.insurance-dark p {
+  color: #ffffff;
 }
 .insurance-main-section .btn-insurance {
   padding: 16px 78px;
@@ -91,6 +97,9 @@ body {
   }
   .insurance-main-section h2 {
     font-size: 20px;
+  }
+  .insurance-main-section h3 {
+    font-size: 18px;
   }
 }
 
@@ -160,17 +169,151 @@ body {
 /* insurance about section */
 .insurance-about {
   padding: 60px 0 30px;
-  color: #ffffff;
-  background-color: #373737;
-}
-.insurance-about h2 {
-  color: #E94F35;
-}
-.insurance-about p {
-  color: #ffffff;
 }
 @media screen and (max-width: 1199px) {
   .insurance-about {
     padding: 40px 0 20px;
+  }
+}
+
+/* insurance types section */
+.insurance-types {
+  margin-top: 30px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 43%;
+}
+.insurance-types.osago-types {
+  background-image: url('../img/osago/osago-types.jpg');
+}
+@media screen and (max-width: 1199px) {
+  .insurance-types {
+    background-size: 41%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .insurance-types {
+    margin-top: 20px;
+    background-size: 33%;
+  }
+  .insurance-types.osago-types {
+    background-image: url('../img/osago/osago-types-md.jpg');
+  }
+  .insurance-main-section .insurance-types h2 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-types {
+    background-size: contain;
+    background-position: center top;
+  }
+  .insurance-types.osago-types {
+    padding-top: 58%;
+    background-image: url('../img/osago/osago-types-sm.jpg');
+  }
+  .insurance-main-section .insurance-types h2 {
+    margin-top: 20px;
+  }
+}
+
+/* insurance advantages section */
+.insurance-advantages {
+  padding: 56px 0;
+  background-color: #FBFBFB;
+}
+.insurance-main-section .insurance-advantages h2 {
+  margin-bottom: 72px;
+}
+@media screen and (max-width: 991px) {
+  .insurance-advantages {
+    padding: 40px 0;
+  }
+  .insurance-main-section .advantages-card p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-advantages {
+    padding: 20px 0;
+  }
+  .insurance-main-section .insurance-advantages h2 {
+    margin-bottom: 40px;
+  }
+  .advantages-card {
+    padding-bottom: 20px;
+  }
+}
+
+/* insurance get section */
+.insurance-get {
+  padding: 50px 0;
+}
+.insurance-main-section .insurance-get p {
+  margin-bottom: 16px;
+}
+.insurance-get .insurance-list li {
+  margin-bottom: 16px;
+}
+.insurance-get .insurance-get-img {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media screen and (max-width: 991px) {
+  .insurance-get {
+    padding: 30px 0;
+  }
+}
+
+/* insurance documents section */
+.insurance-documents {
+  padding: 50px 0 82px;
+  background-color: #FBFBFB;
+}
+.insurance-main-section .insurance-documents h2 {
+  margin-bottom: 52px;
+}
+.documents-card-wrapper {
+  height: 268px;
+}
+.documents-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 20px 10px 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.documents-card img {
+  padding-bottom: 10px;
+}
+.documents-btn {
+  margin-top: 62px;
+}
+@media screen and (max-width: 991px) {
+  .insurance-documents {
+    padding-bottom: 62px;
+  }
+  .documents-card-wrapper {
+    margin-bottom: 30px;
+  }
+  .documents-card p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .documents-btn {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-documents {
+    padding-top: 30px;
+  }
+  .documents-card p {
+    margin-bottom: 10px;
+    font-size: 14px;
   }
 }
