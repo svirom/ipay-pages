@@ -101,6 +101,9 @@ body {
   .insurance-main-section h3 {
     font-size: 18px;
   }
+  .insurance-main-section h4 {
+    font-size: 16px;
+  }
 }
 
 /* breadcrumbs */
@@ -136,7 +139,11 @@ body {
   background-size: 50% auto;
 }
 .insurance-title.osago-title {
-  background-image: url('../img/osago/osago-title-img.jpg');
+  background-image: url('../img/insurance/osago-title-img.jpg');
+}
+.insurance-title.tourist-title {
+  padding: 50px 0;
+  background-image: url('../img/insurance/tourist-title-img.jpg');
 }
 .insurance-title p {
   margin-bottom: 30px;
@@ -154,7 +161,12 @@ body {
     background-size: 48% auto;
   }
   .insurance-title.osago-title {
-    background-image: url('../img/osago/osago-title-img-md.jpg');
+    background-image: url('../img/insurance/osago-title-img-md.jpg');
+  }
+  .insurance-title.tourist-title {
+    background-position: right -75px center;
+    background-size: 52% auto;
+    background-image: url('../img/insurance/tourist-title-img-md.jpg');
   }
   .insurance-title p {
     padding-right: 15px;
@@ -184,7 +196,10 @@ body {
   background-size: 43%;
 }
 .insurance-types.osago-types {
-  background-image: url('../img/osago/osago-types.jpg');
+  background-image: url('../img/insurance/osago-types.jpg');
+}
+.insurance-types.tourist-types {
+  background-image: url('../img/insurance/tourist-types.jpg');
 }
 @media screen and (max-width: 1199px) {
   .insurance-types {
@@ -194,10 +209,14 @@ body {
 @media screen and (max-width: 991px) {
   .insurance-types {
     margin-top: 20px;
+    margin-bottom: 20px;
     background-size: 33%;
   }
   .insurance-types.osago-types {
-    background-image: url('../img/osago/osago-types-md.jpg');
+    background-image: url('../img/insurance/osago-types-md.jpg');
+  }
+  .insurance-types.tourist-types {
+    background-image: url('../img/insurance/tourist-types-md.jpg');
   }
   .insurance-main-section .insurance-types h2 {
     margin-top: 10px;
@@ -210,7 +229,11 @@ body {
   }
   .insurance-types.osago-types {
     padding-top: 58%;
-    background-image: url('../img/osago/osago-types-sm.jpg');
+    background-image: url('../img/insurance/osago-types-sm.jpg');
+  }
+  .insurance-types.tourist-types {
+    padding-top: 60%;
+    background-image: url('../img/insurance/tourist-types-sm.jpg');
   }
   .insurance-main-section .insurance-types h2 {
     margin-top: 20px;
@@ -258,6 +281,9 @@ body {
 .insurance-get .insurance-get-img {
   padding-left: 0;
   padding-right: 0;
+}
+.get-btn {
+  margin-top: 20px;
 }
 @media screen and (max-width: 991px) {
   .insurance-get {
@@ -315,5 +341,170 @@ body {
   .documents-card p {
     margin-bottom: 10px;
     font-size: 14px;
+  }
+}
+
+/* insurance cost section */
+.insurance-cost {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-position: left top 10px;
+  background-repeat: no-repeat;
+  background-size: 54%;
+}
+.insurance-cost.osago-cost {
+  background-image: url('../img/insurance/osago-cost.jpg');
+}
+.insurance-cost.tourist-cost {
+  background-image: url('../img/insurance/tourist-cost.jpg');
+}
+@media screen and (max-width: 991px) {
+  .insurance-cost {
+    margin-top: 20px;
+    background-size: 33%;
+  }
+  .insurance-cost.osago-cost {
+    background-image: url('../img/insurance/osago-cost-md.jpg');
+  }
+  .insurance-cost.tourist-cost {
+    background-image: url('../img/insurance/tourist-cost-md.jpg');
+  }
+  .insurance-main-section .insurance-cost h2 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-cost {
+    background-size: contain;
+    background-position: center top;
+  }
+  .insurance-cost.osago-cost {
+    padding-top: 58%;
+    background-image: url('../img/insurance/osago-cost-sm.jpg');
+  }
+  .insurance-cost.tourist-cost {
+    padding-top: 55%;
+    background-image: url('../img/insurance/tourist-cost-sm.jpg');
+  }
+  .insurance-main-section .insurance-cost h2 {
+    margin-top: 20px;
+  }
+}
+
+/* insurance accident section */
+.insurance-about.insurance-accident {
+  padding: 40px 0;
+}
+.insurance-accident h4 {
+  margin-bottom: 20px;
+}
+.insurance-accident img {
+  margin-top: 80px;
+}
+@media screen and (max-width: 991px) {
+  .insurance-accident img {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-about.insurance-accident {
+    padding-bottom: 60px;
+  }
+  .insurance-accident h4 {
+    margin-top: 0;
+  }
+}
+
+/* insurance idemnification section */
+.insurance-idemnification {
+  padding: 40px 0 30px;
+}
+@media screen and (max-width: 767px) {
+  .insurance-idemnification {
+    padding-bottom: 10px;
+  }
+}
+
+/* insurance electronic policy section */
+.insurance-electronic {
+  padding: 40px 0 48px;
+  background-color: #FBFBFB;
+  background-image: url('../img/insurance/osago-policy.jpg');
+  background-repeat: no-repeat;
+  background-position: right -8% center;
+  background-size: 54%;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 1366px) {
+  .insurance-electronic {
+    background-position: right -30% center;
+    background-size: 62%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .insurance-electronic {
+    background-image: url('../img/insurance/osago-policy-lg.jpg');
+    background-position: right bottom;
+    background-size: 50%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .insurance-electronic {
+    background-image: none;
+    padding-bottom: 0;
+  }
+  .electronic-how-to {
+    padding-bottom: 40px;
+  }
+  .electronic-img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #CBCAD0;
+  }
+  .electronic-img::before,
+  .electronic-img::after {
+    position: absolute;
+    display: block;
+    top: 0;
+    height: 100%;
+    content: '';
+    background-color: #CBCAD0;
+    z-index: 0;
+  }
+  .electronic-img::before {
+    width: 200px;
+    left: -200px;
+  }
+  .electronic-img::after {
+    width: 200px;
+    right: -200px;
+  }
+  .electronic-img h2,
+  .electronic-img p {
+    position: relative;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-electronic {
+    padding-top: 30px;
+  }
+}
+
+/* insurance trip */
+.insurance-about.insurance-trip {
+  padding: 60px 0;
+}
+.insurance-trip p {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1199px) {
+  .insurance-about.insurance-trip {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .insurance-about.insurance-trip {
+    padding: 40px 0 60px;
   }
 }
