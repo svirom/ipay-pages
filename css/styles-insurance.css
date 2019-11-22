@@ -145,8 +145,13 @@ body {
   padding: 50px 0;
   background-image: url('../img/insurance/tourist-title-img.jpg');
 }
+.insurance-title.home-title {
+  padding: 52px 0;
+  background-image: url('../img/insurance/home-title-img.jpg');
+}
 .insurance-title p {
   margin-bottom: 30px;
+  padding-right: 10px;
 }
 @media screen and (max-width: 1366px) {
   .insurance-title {
@@ -157,16 +162,22 @@ body {
 @media screen and (max-width: 1199px) {
   .insurance-title {
     padding: 50px 0;
-    background-position: right -35px center;
-    background-size: 48% auto;
   }
   .insurance-title.osago-title {
+    background-position: right -35px center;
+    background-size: 48% auto;
     background-image: url('../img/insurance/osago-title-img-md.jpg');
   }
-  .insurance-title.tourist-title {
+  .insurance-title.tourist-title,
+  .insurance-title.home-title {
     background-position: right -75px center;
     background-size: 52% auto;
+  }
+  .insurance-title.tourist-title {
     background-image: url('../img/insurance/tourist-title-img-md.jpg');
+  }
+  .insurance-title.home-title {
+    background-image: url('../img/insurance/home-title-img-md.jpg');
   }
   .insurance-title p {
     padding-right: 15px;
@@ -175,6 +186,9 @@ body {
 @media screen and (max-width: 767px) {
   .insurance-title {
     background-image: none!important;
+  }
+  .insurance-title p {
+    padding-right: 0;
   }
 }
 
@@ -358,6 +372,9 @@ body {
 .insurance-cost.tourist-cost {
   background-image: url('../img/insurance/tourist-cost.jpg');
 }
+.insurance-cost.home-cost {
+  background-image: url('../img/insurance/home-cost.jpg');
+}
 @media screen and (max-width: 991px) {
   .insurance-cost {
     margin-top: 20px;
@@ -368,6 +385,9 @@ body {
   }
   .insurance-cost.tourist-cost {
     background-image: url('../img/insurance/tourist-cost-md.jpg');
+  }
+  .insurance-cost.home-cost {
+    background-image: url('../img/insurance/home-cost-md.jpg');
   }
   .insurance-main-section .insurance-cost h2 {
     margin-top: 10px;
@@ -385,6 +405,10 @@ body {
   .insurance-cost.tourist-cost {
     padding-top: 55%;
     background-image: url('../img/insurance/tourist-cost-sm.jpg');
+  }
+  .insurance-cost.home-cost {
+    padding-top: 58%;
+    background-image: url('../img/insurance/home-cost-sm.jpg');
   }
   .insurance-main-section .insurance-cost h2 {
     margin-top: 20px;
