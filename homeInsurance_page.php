@@ -6,9 +6,6 @@ use common\helpers\Debug;
 
 ?>
 
-<?= Yii::t('layouts/homeInsurance', ''); ?>
-<img src="/v4/frontend/web/source/default/img/insurance/ms-logo.png" alt="">
-
 <!-- breadcrumbs -->
 <div class="breadcrumbs">
   <div class="container">
@@ -93,29 +90,29 @@ use common\helpers\Debug;
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h2><?= Yii::t('layouts/homeInsurance', ''); ?>Какие преимущества страховки жилья онлайн?</h2>
+          <h2><?= Yii::t('layouts/homeInsurance', 'Какие преимущества страховки жилья онлайн?'); ?></h2>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-6 col-md-4">
           <div class="advantages-card text-center">
-            <img src="img/insurance/advantage-clock.png" alt="Icon">
-            <h3><?= Yii::t('layouts/homeInsurance', ''); ?>Экономия времени</h3>
-            <p><?= Yii::t('layouts/homeInsurance', ''); ?>Нет нужды никуда идти, вся процедура будет выполнена перед монитором вашего ноутбука или даже через смартфон, полис придет на электронную почту почти мгновенно</p>
+            <img src="/v4/frontend/web/source/default/img/insurance/advantage-clock.png" alt="Icon">
+            <h3><?= Yii::t('layouts/homeInsurance', 'Экономия времени'); ?></h3>
+            <p><?= Yii::t('layouts/homeInsurance', 'Нет нужды никуда идти, вся процедура будет выполнена перед монитором вашего ноутбука или даже через смартфон, полис придет на электронную почту почти мгновенно'); ?></p>
           </div>
         </div>
         <div class="col-sm-6 col-md-4">
           <div class="advantages-card text-center">
-            <img src="img/insurance/advantage-sale.png" alt="Icon">
-            <h3><?= Yii::t('layouts/homeInsurance', ''); ?>Доступная стоимость</h3>
-            <p><?= Yii::t('layouts/homeInsurance', ''); ?>Очень часто оформление страховки жилья через интернет обходится существенно дешевле</p>
+            <img src="/v4/frontend/web/source/default/img/insurance/advantage-sale.png" alt="Icon">
+            <h3><?= Yii::t('layouts/homeInsurance', 'Доступная стоимость'); ?></h3>
+            <p><?= Yii::t('layouts/homeInsurance', 'Очень часто оформление страховки жилья через интернет обходится существенно дешевле'); ?></p>
           </div>
         </div>
         <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
           <div class="advantages-card text-center">
-            <img src="img/insurance/advantage-simplicity.png" alt="Icon">
-            <h3><?= Yii::t('layouts/homeInsurance', ''); ?>Максимальное удобство</h3>
-            <p><?= Yii::t('layouts/homeInsurance', ''); ?>Нет нужды готовить большой пакет документов, достаточно заполнить онлайн-форму. Полис всегда будет храниться на вашем мобильном телефоне или планшете</p>
+            <img src="/v4/frontend/web/source/default/img/insurance/advantage-simplicity.png" alt="Icon">
+            <h3><?= Yii::t('layouts/homeInsurance', 'Максимальное удобство'); ?></h3>
+            <p><?= Yii::t('layouts/homeInsurance', 'Нет нужды готовить большой пакет документов, достаточно заполнить онлайн-форму. Полис всегда будет храниться на вашем мобильном телефоне или планшете'); ?></p>
           </div>
         </div>
       </div>
@@ -127,20 +124,20 @@ use common\helpers\Debug;
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h2><?= Yii::t('layouts/homeInsurance', ''); ?>Как оформить страховку от «Арсенал-Страхование» и iPay.ua онлайн?</h2>
+          <h2><?= Yii::t('layouts/homeInsurance', 'Как оформить страховку от «Арсенал-Страхование» и iPay.ua онлайн?'); ?></h2>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-7">
-          <p><?= Yii::t('layouts/homeInsurance', ''); ?>Сервис iPay.ua – это не только самый популярный в стране ресурс для онлайн-платежей. Кроме того, на сайте можно оформить страховку жилья, совместно с СК «Арсенал-Страхование». Вам нужно лишь посетить соответствующий раздел, либ после чего заполнить небольшую форму, либо нажав на кнопку “Оформить страховку” Онлайн-калькулятор сразу же рассчитает стоимость полиса, так что останется лишь оплатить страховку. После этого вы можете быть уверены в том, что никакие непредвиденные ситуации вам и вашему жилью не страшны!</p>
+          <p><?= Yii::t('layouts/homeInsurance', 'Сервис iPay.ua – это не только самый популярный в стране ресурс для онлайн-платежей. Кроме того, на сайте можно оформить страховку жилья, совместно с СК «Арсенал-Страхование». Вам нужно лишь посетить соответствующий раздел, либ после чего заполнить небольшую форму, либо нажав на кнопку “Оформить страховку” Онлайн-калькулятор сразу же рассчитает стоимость полиса, так что останется лишь оплатить страховку. После этого вы можете быть уверены в том, что никакие непредвиденные ситуации вам и вашему жилью не страшны!'); ?></p>
         </div>
         <div class="col-sm-12 col-md-5 insurance-get-img">
-          <img src="img/insurance/home-get.jpg" alt="Image" class="img-responsive">
+          <img src="/v4/frontend/web/source/default/img/insurance/home-get.jpg" alt="Image" class="img-responsive">
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12 get-btn">
-          <a href="#" class="btn btn-insurance"><?= Yii::t('layouts/homeInsurance', ''); ?>Оформить страховку</a>
+          <a href="#" class="btn btn-insurance"><?= Yii::t('layouts/homeInsurance', 'Оформить страховку'); ?></a>
         </div>
       </div>
     </div>

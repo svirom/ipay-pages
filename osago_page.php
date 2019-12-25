@@ -6,9 +6,6 @@ use common\helpers\Debug;
 
 ?>
 
-<?= Yii::t('layouts/osago', ''); ?>
-<img src="/v4/frontend/web/source/default/img/insurance/ms-logo.png" alt="">
-
 <!-- breadcrumbs -->
 <div class="breadcrumbs">
   <div class="container">
@@ -170,7 +167,7 @@ use common\helpers\Debug;
         <div class="col-sm-6 col-md-3 documents-card-wrapper">
           <div class="documents-card text-center">
             <img src="/v4/frontend/web/source/default/img/insurance/osago-doc1.png" alt="Image">
-            <p><?= Yii::t('layouts/osago', 'Свидетельстве о регистрации ТС (техпаспорте)'); ?></p>
+            <p><?= Yii::t('layouts/osago', 'Свидетельство о регистрации ТС (техпаспорт)'); ?></p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 documents-card-wrapper">

@@ -6,9 +6,6 @@ use common\helpers\Debug;
 
 ?>
 
-<?= Yii::t('layouts/tourist', ''); ?>
-<img src="/v4/frontend/web/source/default/img/insurance/ms-logo.png" alt="">
-
 <!-- breadcrumbs -->
 <div class="breadcrumbs">
   <div class="container">

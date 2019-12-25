@@ -1,0 +1,6 @@
+<?= Yii::t('layouts/osago', ''); ?> - автоцивілка
+<?= Yii::t('layouts/tourist', ''); ?> - туристичне страхування
+<?= Yii::t('layouts/homeInsurance', ''); ?> - страхування житла
+/v4/frontend/web/source/default/img/insurance/ - папка, куди складати картинки страхування
+
+styles-insurance-php.css - css файл із зміненими шдяхами до картинок
